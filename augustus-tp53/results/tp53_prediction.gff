@@ -1,0 +1,69 @@
+# This output was generated with AUGUSTUS (version 3.5.0).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth, Katharina Hoff, Henry Mehlan and Daniel Honsel.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /opt/anaconda3/config/ ...
+# human version. Using default transition matrix.
+# Looks like tp53.fa is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 32772, name = NG_017013.2) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+NG_017013.2	AUGUSTUS	gene	1	3902	1	-	.	g1
+NG_017013.2	AUGUSTUS	transcript	1	3902	.	-	.	g1.t1
+NG_017013.2	AUGUSTUS	CDS	2850	2961	.	-	1	transcript_id "g1.t1"; gene_id "g1";
+NG_017013.2	AUGUSTUS	CDS	3229	3327	.	-	1	transcript_id "g1.t1"; gene_id "g1";
+NG_017013.2	AUGUSTUS	CDS	3472	3902	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+NG_017013.2	AUGUSTUS	start_codon	3900	3902	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MKTLETQPLAPDCCPSDQDPAPAHPSPHASPMNKNADSELMPPPPERGDPPRLSPDPVAGSAVSQELREGDPVSLSTP
+# LETEFGSPSELSPRIEEQELSENTSLPAEEANGSLSEEEANGPELGSGKAMEDTSGEPAAEDEGDTAWNYSFSQLPRFLSGSWSEFSTQPENFLKGCK
+# WAPDGSCILTNSADNILRIYNLPPELYHEGEQVEYAEM]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/3
+# CDS introns: 0/3
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+NG_017013.2	AUGUSTUS	gene	15146	22942	1	+	.	g2
+NG_017013.2	AUGUSTUS	transcript	15146	22942	.	+	.	g2.t1
+NG_017013.2	AUGUSTUS	start_codon	15146	15148	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+NG_017013.2	AUGUSTUS	CDS	15146	15153	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+NG_017013.2	AUGUSTUS	CDS	15929	16030	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+NG_017013.2	AUGUSTUS	CDS	16148	16169	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+NG_017013.2	AUGUSTUS	CDS	16279	16557	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+NG_017013.2	AUGUSTUS	CDS	17315	17498	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+NG_017013.2	AUGUSTUS	CDS	17580	17692	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+NG_017013.2	AUGUSTUS	CDS	18261	18370	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+NG_017013.2	AUGUSTUS	CDS	18714	18850	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+NG_017013.2	AUGUSTUS	CDS	18943	19016	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+NG_017013.2	AUGUSTUS	CDS	21836	21942	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+NG_017013.2	AUGUSTUS	CDS	22861	22942	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+NG_017013.2	AUGUSTUS	stop_codon	22940	22942	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MGSSQTAFRVTAMEEPQSDPSVEPPLSQETFSDLWKLLPENNVLSPLPSQAMDDLMLSPDDIEQWFTEDPGPDEAPRM
+# PEAAPPVAPAPAAPTPAAPAPAPSWPLSSSVPSQKTYQGSYGFRLGFLHSGTAKSVTCTYSPALNKMFCQLAKTCPVQLWVDSTPPPGTRVRAMAIYK
+# QSQHMTEVVRRCPHHERCSDSDGLAPPQHLIRVEGNLRVEYLDDRNTFRHSVVVPYEPPEVGSDCTTIHYNYMCNSSCMGGMNRRPILTIITLEDSSG
+# NLLGRNSFEVRVCACPGRDRRTEEENLRKKGEPHHELPPGSTKRALPNNTSSSPQPKKKPLDGEYFTLQIRGRERFEMFRELNEALELKDAQAGKEPG
+# GSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/11
+# CDS introns: 0/10
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g2
+###
+# command line:
+# augustus --species=human tp53.fa

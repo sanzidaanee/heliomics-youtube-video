@@ -1,0 +1,7 @@
+# BLASTP 2.16.0+
+# Query: tp53_protein.fa
+# Database: User specified sequence set (Input: tp53_ref.fa)
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+tp53_protein.fa	NP_000537.3	100.000	393	0	0	13	405	1	393	0.0	815
+# BLAST processed 1 queries

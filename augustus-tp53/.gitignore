@@ -1,0 +1,17 @@
+# BLAST database files
+*.phr
+*.pin
+*.psq
+*.pdb
+*.pjs
+*.pot
+*.ptf
+*.pto
+
+# macOS files
+.DS_Store
+
+# Python cache (if you use Python)
+__pycache__/
+*.pyc
+
